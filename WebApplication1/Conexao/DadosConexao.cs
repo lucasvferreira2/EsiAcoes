@@ -15,7 +15,8 @@ namespace WebApplication1.Conexao
 
         public static String getStringConnection()
         {
-            return "Server=" + Servidor + "," + Porta + ";Initial Catalog=" + Banco + ";Persist Security Info=False;"+ 
+            return "Server=" + Servidor + "," + Porta + 
+                ";Initial Catalog=" + Banco + ";Persist Security Info=False;"+ 
                    "User ID=" + Usuario + ";Password=" + Senha + ";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         }
 
